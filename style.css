@@ -1,0 +1,270 @@
+/*
+Theme Name: On The Edge!
+Theme URI: http://simplysaru.com/
+Description: Child theme for the FavePersonal Theme
+Author: Saravanan Sivaraman
+Author URI: http://simplysaru.com/saru/
+Template: favepersonal
+Version: 1.0
+*/
+ 
+ 
+/* ENTER YOUR CUSTOM CSS HERE */
+ 4 5 	
+
+.entry-title,
+.page-title,
+.entry-date {
+font-family: Droid Sans, Droid Sans, Droid Sans, sans-serif;
+}
+
+body { 
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	color: #444;
+	background: #444;
+}
+a,
+a:link {
+	color: #F15A38;
+}
+a:visited {
+color: #F15A38;
+}
+a:hover,
+a:active {
+color: #F15A38;
+}
+::-moz-selection {
+background: #b8a482;
+}
+::selection {
+background: #b8a482;
+}
+/** Header
+-------------------------------------------------- */
+#header {
+background-color: #5c5241;
+border-bottom: 4px solid #5c5241;
+}
+
+#header a {
+color: #fff;
+}
+
+/** Masthead
+-------------------------------------------------- */
+#masthead {
+background-color: #ffffff;
+}
+/* featured posts */
+#featured-posts .featured {
+background-color: #b8a482;
+border-bottom-color: #b8a482;
+}
+#featured-posts .featured-title,
+#featured-posts .has-featured-img .featured-format {
+background-color: #b8a482;
+color: #e3d9af;
+}
+#featured-posts .featured-content {
+color: #e3d9af;
+}
+/* gallery */
+/* set bg color to tile featured gallery with less than 4 images */
+#featured-posts .gallery-img-excerpt li.excerpt-img-0 {
+background-color: #b8a482;
+}
+#featured-posts .gallery-img-excerpt li.excerpt-img-1 {
+background-color: #b8a482;
+}
+#featured-posts .gallery-img-excerpt li.excerpt-img-2 {
+background-color: #b8a482;
+}
+#featured-posts .gallery-img-excerpt li.excerpt-img-3 {
+background-color: #b8a482;
+}
+/* video */
+#featured-posts .featured-format-video {
+background-color: #b8a482;
+border-bottom-color: #b8a482;
+}
+/* rollover */
+#featured-posts .featured:hover {
+border-bottom-color: rgba(176,184,130, .8);
+}
+#featured-posts .featured:hover .featured-content {
+background-color: rgb(176,184,130); /* fallback for IE */
+background-color: rgba(176,184,130, .8);
+color: #b8a482;
+}
+/** Post
+-------------------------------------------------- */
+.entry-date a:hover,
+.entry-meta a:hover {
+color: #b8a482;
+}
+.entry-media a:hover {
+border-bottom-color: #b8a482;
+}
+.link-screenshot:hover {
+border-bottom-color: #b8a482;
+}
+/** Sidebar, Widgets, Search Results
+-------------------------------------------------- */
+.bio-box a {
+color: #b8a482;
+}
+.bio-box a:hover {
+color: #e3d9af;
+}
+.bio-box-gallery a.bio-carousel-nav:hover {
+background-color: #b8a482;
+}
+.bio-box-gallery,
+.bio-box-content,
+.bio-box-links {
+background-color: #b8a482;
+color: #e3d9af;
+}
+.bio-box-title {
+color: #b8a482;
+}
+.bio-box-links ul li a:hover {
+border-color: #b8a482;
+}
+.widget-title,
+.searchform,
+.search-title {
+color: #5c5241;
+background-color: #b8a482;
+}
+#primary .heading,
+.full-archive-container .heading {
+background-color: #ffffff;
+}
+#primary .heading .page-title,
+.full-archive-container .page-title {
+color: #b8a482;
+}
+#primary .heading .page-title em,
+.full-archive-container .page-title em {
+color: #b8a482;
+}
+.search-title em {
+color: #00000;
+}
+.searchform #s {
+color: #5c5241;
+}
+.searchform #s::-webkit-input-placeholder {
+color: #5c5241;
+}
+.searchform #s:-moz-placeholder {
+color: #5c5241;
+}
+.searchform #searchsubmit:hover,
+.searchform #searchsubmit:focus {
+background-color: #5c5241;
+}
+.searchform #searchsubmit:active {
+background-color: #b8a482;
+}
+/** Image Archive
+-------------------------------------------------- */
+.img-vid-archive .entry-title-img {
+background-color: #b8a482;
+}
+.entry-header-img .comments-title:hover {
+color: #b8a482;
+}
+/** Footer
+-------------------------------------------------- */
+#footer {
+color: #e3d9af;
+background-color: #5c5241;
+}
+#footer a {
+color: #fff;
+}
+/** Utilities
+-------------------------------------------------- */
+.wp-caption dd {
+color: #5c5241;
+background-color: #e3d9af;
+}
+.post .gallery-img-excerpt li a:hover,
+.attachment-next a:hover,
+.attachment-prev a:hover {
+border-bottom-color: #b8a482;
+}
+.post .gallery-img-excerpt li.gallery-view-all a {
+background-color: #e3d9af;
+}
+.post .gallery-img-excerpt li.gallery-view-all a:hover {
+background-color: #b8a482;
+}
+.post .gallery-thumbs a:hover {
+border-bottom-color: #b8a482;
+}
+.post .gallery-thumbs a.activated {
+border-bottom-color: #b8a482;
+}
+.edit-link a {
+background-color: #000000;
+}
+.edit-link a:hover {
+background-color: #b8a482;
+}
+/* Shortcode Gallery */
+#content .gallery-item .gallery-icon a:hover {
+border-bottom-color: #ffffff;
+}
+/* Social */
+#social #reply-title,
+#social .comments-title,
+#social .nocomments,
+#social .social-nav,
+#social .social-nav a span {
+background-color: #b8a482;
+}
+#social #reply-title,
+#social .comments-title {
+color: #000000;
+}
+#social .social-heading,
+#social .nocomments {
+color: #5c5241;
+}
+#social .social-nav a,
+#social #submit,
+#facebook_signin,
+#twitter_signin {
+background-color: #000000;
+}
+#social .social-nav a:hover,
+#social #submit:hover,
+#facebook_signin:hover,
+#twitter_signin:hover {
+background-color: #b8a482;
+}
+#social .social-nav a {
+color: #5c5241;
+}
+#social .social-current-tab a,
+#social .social-nav a:hover {
+color: #b8a482;
+background-color: #b8a482;
+}
+#social .social-posted-from {
+background-color: #b8a482;
+}
+#social .comment-awaiting-moderation {
+background-color: #b8a482;
+color: #b8a482;
+}
+#social .social-posted-when:hover,
+#social .social-actions a:hover {
+color: #b8a482;
+}
